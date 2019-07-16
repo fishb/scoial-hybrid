@@ -1,0 +1,72 @@
+page{
+	background: #FFFFFF;
+}
+.registerBG{
+	width: 750upx;
+	height: 438upx;
+}
+.login_main{
+	display: flex;
+	flex-direction: column;
+	margin: 136upx auto;
+	align-items: center;
+}
+.login_bg{
+	width: 253upx;
+}
+.registerPassword{
+	display: block;
+	width: 280upx;
+	height: 280upx; 
+	margin: auto auto 50upx;
+	z-index:999;
+}
+.login_main text{
+	color: #6CC9FB;
+	font-size: 60upx;
+	font-family: FZZBHJW--GB1-0;
+}
+.submitBtn{
+	width: 564upx;
+	height: 94upx;
+	border-radius: 46upx;
+	background-color: #03E06E;
+	color: #FFFFFF;
+	margin: 36upx auto 0;
+	&.phoneBtn{
+		background-color: transparent;
+		border: 1upx solid #545454;
+		color: #545454;
+	}
+}
+.more{
+	margin-top: 50upx;
+	display: flex;
+	justify-content: center;
+	.look{
+		font-size: 24upx;
+		color: #4F4F4F;
+		text{
+			color: #3CBAFF;
+		}
+	}
+}
+.mainBox{
+	padding: 0 30upx;
+	flex: 1;
+	.setbox{
+		align-items: center;
+		height: 100upx;
+		border-bottom: 2upx solid #DDD;
+		.title{
+			color: #000;
+			line-height: 100upx;
+		}
+		.uni-input{
+			height: 100%;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-size: 32upx;
+		}
+	}
+}

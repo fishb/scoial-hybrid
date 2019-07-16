@@ -1,0 +1,85 @@
+.record {
+	min-height: 100%;
+	height: auto;
+	background-color: #ffffff;
+	&-main {
+	  width: 100%;
+	  padding: 20upx 20upx 0;
+	  &-area {
+		height: 320upx;
+		background: url(http://ceshi.weakwater.com/static/record_bg.png) no-repeat center;
+		background-size: cover;
+		padding: 12upx 28upx;
+		border-radius: 6upx;
+		@include flexs(column, space-around, flex-start);
+		&-count {
+		  @include flexs(column, flex-start, flex-start);
+		  .record-title {
+			font-size: 50upx;
+			color: #e7cb90;
+			font-family: PingFang-SC-Medium;
+		  }
+		  .record-info {
+			font-size: 24upx;
+			color: $t-f;
+			font-family: SimHei;
+		  }
+		}
+		.record-main-out-count {
+		  .record-price {
+			font-size: 83upx;
+			color: #e7cb90;
+		  }
+		}
+	  }
+	  
+	  &-tab{
+		  width: 100%;
+		  height: 110upx;
+		  @include flexs(row,space-between,center);
+		  &-item{
+			  flex: 1;
+			  @include flexs(column,space-around,center);
+			  text{
+				  color: #3b3b3b;
+				  font-size: 30upx;
+			  }
+			  &.active{
+				  text{
+					  color: #E7C275;
+				  }
+			  }
+		  }
+	  }
+
+	  &-list {
+		overflow: hidden;
+		.list-item {
+		  height: 125upx;
+		  padding: 25upx 0;
+		  @include flexs(row, space-between, center);
+		  border-bottom: 2upx solid #e1e1e1;
+		  .list-item-left {
+			color: #3b3b3b;
+			font-size: 27upx;
+			@include flexs(column, space-around, flex-start);
+			text {
+			  &:last-child {
+				font-size: 20upx;
+			  }
+			}
+		  }
+		  .list-item-text {
+			color: #3b3b3b;
+			font-size: 40upx;
+			@include flexs(column, space-around, flex-start);
+			text {
+			  &:last-child {
+				font-size: 20upx;
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }
