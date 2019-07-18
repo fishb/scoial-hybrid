@@ -17,4 +17,3 @@
     Vue.prototype.LoginUserShareBind = LoginUserShareBind  //登录账号及id绑定  
 ```
 
-欢迎使用
