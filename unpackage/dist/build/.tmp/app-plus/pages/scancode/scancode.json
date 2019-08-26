@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "分享页面",
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

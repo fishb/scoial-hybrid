@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "店铺主页",
+  "titleNView": false,
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "hybrid-title": "/components/HybridTitle",
+    "general-list": "/components/GeneralList"
+  }
+}

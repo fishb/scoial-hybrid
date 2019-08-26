@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "支付宝账号",
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

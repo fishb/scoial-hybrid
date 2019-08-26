@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "hybrid-title": "/components/HybridTitle",
+    "hybrid-popup": "/components/HybridPopup",
+    "general-list": "/components/GeneralList"
+  }
+}

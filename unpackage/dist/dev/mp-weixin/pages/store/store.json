@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "店铺主页",
+  "usingComponents": {
+    "general-list": "/components/GeneralList"
+  }
+}

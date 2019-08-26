@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "每日打卡",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

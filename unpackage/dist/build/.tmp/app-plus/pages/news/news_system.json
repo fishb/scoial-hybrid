@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "众汇公告",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

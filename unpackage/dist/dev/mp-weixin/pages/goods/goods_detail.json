@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "详情页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "general-list": "/components/GeneralList",
+    "hybrid-spec": "/components/HybridSpec"
+  }
+}

@@ -6,7 +6,7 @@
  */
 export default function paramsValidate(params) {
   let flag = false;  
-  for(var key in params){
+  for(let key in params){
     if(params[key] != '0' && !params[key]){
       return true
     }

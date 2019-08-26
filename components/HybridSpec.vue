@@ -89,7 +89,7 @@
                 }
                 if (this.childIdArr.length == this.spec.length) {
                     let skuString = this.childIdArr.join('_')
-                    return this.skuList.find(i => i.specs == skuString)
+                    return this.skuList.find(i => i.specs == skuString) || ''
                 }
             },
             skuselectName() {
@@ -206,11 +206,11 @@
                 flex-wrap: wrap;
 
                 .way-item {
-                    width: 138upx;
+                    padding: 0 20upx;
                     height: 60upx;
-                    margin-right: 22upx;
+                    margin: 22upx 22upx 0 0;
                     border: 2upx solid #000000;
-                    border-radius: 6upx;
+                    border-radius: 30upx;
                     font-size: 25upx;
                     color: #333333;
                     text-align: center;

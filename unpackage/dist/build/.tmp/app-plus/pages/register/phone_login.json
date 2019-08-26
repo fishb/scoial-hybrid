@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "手机号登录",
+  "titleNView": {
+    "type": "default",
+    "backgroundColor": "#FFFFFF",
+    "titleColor": "#010101"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

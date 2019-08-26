@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "购物金",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

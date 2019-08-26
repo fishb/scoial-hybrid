@@ -221,6 +221,7 @@
 	} from "vuex";
 	import GeneralList from '@/components/GeneralList.vue'
 	import HybridSpec from '@/components/HybridSpec.vue'
+	import Specs from './specs.js'
 	export default {
 		components: {
 			uniBadge,
@@ -237,7 +238,9 @@
 				current: 0, // 滑块索引
 				result: {
 					goodsInfo:{	
-						images:[]
+						images:[],
+						goods_index_image: 'https://cdn.tianshic.com/uploads/2019/07/27/bea558114b16003aad3c8e0a3ec1d9b8.jpg?x-oss-process=image/auto-orient,1/interlace,1/resize,m_fixed,w_800,h_800/quality,q_90/sharpen,150/format,jpg',
+						goods_price: 1000
 					},
 					shopInfo:{
 						shop_name: '官方自营',
@@ -275,8 +278,8 @@
 						newprice: '180'
 					}
 				],
-				spec: [],
-				skuList: []
+				spec: Specs.spec,
+				skuList: Specs.skuList
 			}
 		},
 		computed: {

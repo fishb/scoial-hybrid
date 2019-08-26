@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "红包",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

@@ -1,0 +1,469 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/** flex混入器 **/
+/** 单行文本省略号 或多行文本**/
+.payment.data-v-7f512ce0 {
+  min-height: 100%;
+  height: auto;
+  padding-bottom: 125rpx;
+  background-color: #f8f8f8;
+}
+.payment-address.data-v-7f512ce0 {
+    width: 694rpx;
+    height: 194rpx;
+    margin: 20rpx 28rpx 0;
+    padding: 0 28rpx;
+    background-color: #ffffff;
+    -webkit-border-radius: 4rpx;
+            border-radius: 4rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.payment-address-flex.data-v-7f512ce0 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+}
+.payment-address-flex text.data-v-7f512ce0 {
+        font-size: 34rpx;
+        color: #333333;
+}
+.payment-address-flex .payment-address-top text.data-v-7f512ce0:last-child {
+        margin-left: 31rpx;
+}
+.payment-address-flex .flex-text.data-v-7f512ce0 {
+        font-size: 29rpx;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+}
+.payment-address-flex .flex-text .map.data-v-7f512ce0 {
+          margin-right: 10rpx;
+}
+.payment-address-flex .flex-text text.data-v-7f512ce0 {
+          font-size: 29rpx;
+}
+.payment-address .address-text.data-v-7f512ce0 {
+      font-size: 34rpx;
+      color: #000000;
+}
+.payment-shop.data-v-7f512ce0 {
+    width: 694rpx;
+    height: auto;
+    margin: 20rpx 28rpx 0;
+    padding: 28rpx;
+    background-color: #ffffff;
+    -webkit-border-radius: 4rpx;
+            border-radius: 4rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.payment-shop-detail.data-v-7f512ce0 {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      border-bottom: 2rpx solid #f4f4f4;
+}
+.payment-shop-detail .sales.data-v-7f512ce0 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 34rpx;
+}
+.payment-shop-detail .sales-way.data-v-7f512ce0 {
+          padding: 0 10rpx;
+          height: 30rpx;
+          line-height: 30rpx;
+          background-color: #FF2A3F;
+          -webkit-border-radius: 15rpx;
+                  border-radius: 15rpx;
+          font-size: 20rpx;
+          color: #ffffff;
+          margin-right: 10rpx;
+}
+.payment-shop-detail .sales-title.data-v-7f512ce0 {
+          font-size: 29rpx;
+          color: #333333;
+}
+.payment-shop-detail .detail-info.data-v-7f512ce0 {
+        margin-bottom: 50rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+}
+.payment-shop-detail .detail-info image.data-v-7f512ce0 {
+          width: 126rpx;
+          height: 126rpx;
+}
+.payment-shop-detail .detail-info-flex.data-v-7f512ce0 {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          margin: 0 14rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -webkit-box-align: start;
+          -webkit-align-items: flex-start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+}
+.payment-shop-detail .detail-info-flex .flex-title.data-v-7f512ce0 {
+            font-size: 28rpx;
+            color: #333333;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            -o-text-overflow: ellipsis;
+               text-overflow: ellipsis;
+}
+.payment-shop-detail .detail-info-flex .flex-label.data-v-7f512ce0 {
+            font-size: 24rpx;
+            color: #828282;
+}
+.payment-shop-detail .detail-info-label.data-v-7f512ce0 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: start;
+          -webkit-justify-content: flex-start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+          -webkit-box-align: end;
+          -webkit-align-items: flex-end;
+              -ms-flex-align: end;
+                  align-items: flex-end;
+}
+.payment-shop-detail .detail-info-label text.data-v-7f512ce0 {
+            font-size: 30rpx;
+            line-height: 35rpx;
+}
+.payment-shop-detail .detail-info-label text.data-v-7f512ce0:first-child {
+              color: #333333;
+}
+.payment-shop-detail .detail-info-label text.data-v-7f512ce0:last-child {
+              color: #6C6C6C;
+}
+.payment-shop-item.data-v-7f512ce0 {
+      width: 100%;
+      height: 98rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      border-bottom: 2rpx solid #f4f4f4;
+}
+.payment-shop-item text.data-v-7f512ce0 {
+        font-size: 28rpx;
+        color: #333333;
+}
+.payment-shop-item text.right.data-v-7f512ce0 {
+          font-size: 27rpx;
+          color: #828282;
+}
+.payment-shop-item input.data-v-7f512ce0 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        font-size: 27rpx;
+        color: #828282;
+        margin-left: 10rpx;
+}
+.payment-shop-total.data-v-7f512ce0 {
+      width: 100%;
+      padding-top: 28rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+}
+.payment-shop-total text.data-v-7f512ce0 {
+        font-size: 26rpx;
+        color: #333333;
+}
+.payment-shop-total text.red.data-v-7f512ce0 {
+          font-size: 30rpx;
+          color: #FF2A3F;
+}
+.payment-way.data-v-7f512ce0 {
+    width: 694rpx;
+    height: auto;
+    margin: 20rpx 28rpx 0;
+    padding: 0 28rpx;
+    background-color: #ffffff;
+    -webkit-border-radius: 4rpx;
+            border-radius: 4rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.payment-way-item.data-v-7f512ce0 {
+      width: 100%;
+      height: 86rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      border-bottom: 2rpx solid #F4F4F4;
+}
+.payment-way-item.data-v-7f512ce0:last-child {
+        border-bottom: 0;
+}
+.payment-way-item text.data-v-7f512ce0 {
+        font-size: 29rpx;
+        color: #333333;
+}
+.payment-way-item .right text.data-v-7f512ce0 {
+        font-size: 29rpx;
+        color: #828282;
+}
+.payment-way-item .right switch.data-v-7f512ce0 {
+        margin-left: 20rpx;
+}
+.payment-control.data-v-7f512ce0 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 115rpx;
+    background-color: #ffffff;
+    padding: 0 32rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.payment-control-price.data-v-7f512ce0 {
+      font-size: 29rpx;
+      color: #FF2A3F;
+}
+.payment-control-price .price-text.data-v-7f512ce0 {
+        font-weight: bold;
+}
+.payment-control-price .price-num.data-v-7f512ce0 {
+        font-size: 45rpx;
+        font-weight: bold;
+}
+.payment-control-button.data-v-7f512ce0 {
+      -webkit-border-radius: 4rpx;
+              border-radius: 4rpx;
+      color: #ffffff;
+      font-size: 28rpx;
+      width: 207rpx;
+      line-height: 82rpx;
+      margin-right: 21rpx;
+}
+.payment-control-button.data-v-7f512ce0:after {
+        display: none;
+}
+.payment-control-button.data-v-7f512ce0:last-child {
+        margin-right: 0;
+}
+.payment-control-button.default.data-v-7f512ce0 {
+        background-color: #1A1A1A;
+}
+.payment-control-button.success.data-v-7f512ce0 {
+        background-color: #F2012E;
+}
+.payment-control-button.warning.data-v-7f512ce0 {
+        background-color: #E8C983;
+}
+

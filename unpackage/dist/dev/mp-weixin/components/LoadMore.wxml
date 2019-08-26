@@ -1,0 +1,1 @@
+<view class="loadmore"><block wx:if="{{loading==1}}"><image src="/static/loading.png" mode="widthFix"></image></block><text>{{$root.g0.text}}</text></view>

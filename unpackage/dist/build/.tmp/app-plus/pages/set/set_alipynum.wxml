@@ -1,0 +1,1 @@
+<view class="container alipy data-v-77178994"><view class="alipy-item data-v-77178994"><text class="data-v-77178994">支付宝账号</text><input placeholder="请输入你的支付宝账号" data-event-opts="{{[['input',[['__set_model',['','alipynum','$event',[]]]]]]}}" value="{{alipynum}}" bindinput="__e" class="data-v-77178994"/></view><button class="alipy-button data-v-77178994">保存</button></view>

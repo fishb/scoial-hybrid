@@ -1,73 +1,83 @@
 export default {
-    goods_spec: [
+    spec: [
         {
-            thumb: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1841931946,2601594367&fm=26&gp=0.jpg',
-            specs: '2_5',
-            id: 23,
-            stock: 10,
-            title: '洗发水+500ML',
-            price: '1000.00'
+            id: 1,
+            name: '颜色',
+            content:[
+                {
+                    id: 11,
+                    name: '黄色/白色'
+                },{
+                    id: 12,
+                    name: '黑色/闪亮橘'
+                },{
+                    id: 13,
+                    name: '鲨鱼灰/闪亮黄'
+                }
+            ],
         },
         {
-            thumb: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3942074681,1492806778&fm=26&gp=0.jpg',
-            specs: '2_6',
-            id: 22,
-            stock: 0,
-            title: '洗发水+250ML',
-            price: '20.00'
-        },
-        {
-            thumb: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3942074681,1492806778&fm=26&gp=0.jpg',
-            specs: '2_7',
-            id: 22,
-            stock: 0,
-            title: '沐浴露+1000ML',
-            price: '1000.00'
+            id: 2,
+            name: '尺码',
+            content:[
+                {
+                    id: 21,
+                    name: '39'
+                },{
+                    id: 22,
+                    name: '40',
+                },{
+                    id: 23,
+                    name: '40.5'
+                },{
+                    id: 24,
+                    name: '41'
+                },{
+                    id: 25,
+                    name: '42'
+                },{
+                    id: 26,
+                    name: '42.5'
+                },{
+                    id: 27,
+                    name: '43'
+                },{
+                    id: 28,
+                    name: '43.5'
+                },{
+                    id: 29,
+                    name: '44'
+                }
+            ]
         }
     ],
-    spec_info_list: [
+    skuList: [
         {
-            spec_name: '规格',
-            spec_id: 3,
-            value: [
-                {
-                    spec_value_name: '洗发水',
-                    spec_name: '规格',
-                    spec_id: 3,
-                    spec_value_id: 2
-                },
-                {
-                    spec_value_name: '沐浴露',
-                    spec_name: '规格',
-                    spec_id: 3,
-                    spec_value_id: 3
-                }
-            ]
-        },
-        {
-            spec_name: '净含量',
-            spec_id: 4,
-            value: [
-                {
-                    spec_value_name: '500ML',
-                    spec_name: '净含量',
-                    spec_id: 4,
-                    spec_value_id: 5
-                },
-
-                {
-                    spec_value_name: '250ML',
-                    spec_name: '净含量',
-                    spec_id: 4,
-                    spec_value_id: 6
-                },
-                {
-                    spec_value_name: '1000ML',
-                    spec_name: '净含量',
-                    spec_id: 4,
-                    spec_value_id: 7
-                }
-            ]
+            specs: '11_21',
+            goods_price: 1200,
+            goods_headimg: 'https://cdn.tianshic.com/uploads/2019/07/27/bea558114b16003aad3c8e0a3ec1d9b8.jpg?x-oss-process=image/auto-orient,1/interlace,1/resize,m_fixed,w_800,h_800/quality,q_90/sharpen,150/format,jpg',
+            stock: 10
+        },{
+            specs: '11_24',
+            goods_price: 1300,
+            goods_headimg: 'https://cdn.tianshic.com/uploads/2019/07/27/bea558114b16003aad3c8e0a3ec1d9b8.jpg?x-oss-process=image/auto-orient,1/interlace,1/resize,m_fixed,w_800,h_800/quality,q_90/sharpen,150/format,jpg',
+            stock: 99
+        },{
+            specs: '11_23',
+            goods_price: 1300,
+            goods_headimg: 'https://cdn.tianshic.com/uploads/2019/07/27/bea558114b16003aad3c8e0a3ec1d9b8.jpg?x-oss-process=image/auto-orient,1/interlace,1/resize,m_fixed,w_800,h_800/quality,q_90/sharpen,150/format,jpg',
+            stock: -1
+        },{
+            specs: '12_21',
+            goods_price: 1300,
+            goods_headimg: 'https://cdn.tianshic.com/uploads/2019/07/27/bea558114b16003aad3c8e0a3ec1d9b8.jpg?x-oss-process=image/auto-orient,1/interlace,1/resize,m_fixed,w_800,h_800/quality,q_90/sharpen,150/format,jpg',
+            stock: 99
+        },{
+            specs:'13_27',
+            goods_price: 1300,
+            goods_headimg: 'https://cdn.tianshic.com/uploads/2019/07/27/bea558114b16003aad3c8e0a3ec1d9b8.jpg?x-oss-process=image/auto-orient,1/interlace,1/resize,m_fixed,w_800,h_800/quality,q_90/sharpen,150/format,jpg',
+            stock: -1
         }
+
     ]
 }

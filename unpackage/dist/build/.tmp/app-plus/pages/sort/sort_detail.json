@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分类详情",
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "general-list": "/components/GeneralList"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "申请提现",
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "hybrid-popup": "/components/HybridPopup"
+  }
+}

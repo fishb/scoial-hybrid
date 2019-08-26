@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "收货地址管理",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "hybrid-title": "/components/HybridTitle"
+  }
+}

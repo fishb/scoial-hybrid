@@ -59,7 +59,7 @@
 		</view>
 		<!-- 为你推荐 -->
 		<general-list :GeneralTitle="'为你推荐'" :List="list" style="background: #f8f8f8;">
-			<load-more :loading="loading" slot="footer"></load-more>
+			<load-more :loading.sync="loading" slot="footer"></load-more>
 		</general-list>
 		
 	</view>
@@ -127,17 +127,18 @@
 				this.current = e.detail.current
 			},
 			async _shopList(){
-				this.loading = 1
-				let data = await this.$apis.shopList({page:this.page})
-				this.list = [...this.list,...data.result.list]
-				if (this.page == 1) {
-					this.total = data.result.total
-				}
-				this.loading = 0
-				if (this.list.length == this.total) {
-					this.loading = 2
-				}
-				this.page++
+				this.list = [...this.list,{name:'123'},{name:'245'}]
+				// this.loading = 1
+				// let data = await this.$apis.shopList({page:this.page})
+				// this.list = [...this.list,...data.result.list]
+				// if (this.page == 1) {
+				// 	this.total = data.result.total
+				// }
+				// this.loading = 0
+				// if (this.list.length == this.total) {
+				// 	this.loading = 2
+				// }
+				// this.page++
 			}
 		},
 		onPageScroll(e) {

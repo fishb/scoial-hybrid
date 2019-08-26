@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "积分",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "type": "default"
+  },
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

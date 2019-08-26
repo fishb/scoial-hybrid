@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分类详情",
+  "usingComponents": {
+    "general-list": "/components/GeneralList"
+  }
+}
