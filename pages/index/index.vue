@@ -38,25 +38,11 @@
 		<!-- 版块入口 -->
 		<view class="index-entry">
 			<view class="index-entry-item" v-for="(item,i) in [1,2,3,4,5,6,7,8,9,10]" :key="i">
-				<image :src="'http://ceshi.weakwater.com/image/entry'+item+'.png'"></image>
+				<image src="http://www.ay1.cc/img?w=200&h=200&c=666666"></image>
 				<text>美妆个户</text>
 			</view>
 		</view>
-		<!-- 通用版块 -->
-		<view class="index-general">
-			<view class="index-general-ty" @tap="$navTo('/pages/preferential/preferential_vip')">
-				<image src="http://ceshi.weakwater.com/image/general.png" mode="widthFix"></image>
-			</view>
-			<view class="index-general-common">
-				<view class="index-general-common-left">
-					<image src="http://ceshi.weakwater.com/image/generalleft.png" mode="widthFix"></image>
-				</view>
-				<view class="index-general-common-right">
-					<image src="http://ceshi.weakwater.com/image/generalright1.png" mode="widthFix"></image>
-					<image src="http://ceshi.weakwater.com/image/generalright2.png" mode="widthFix"></image>
-				</view>
-			</view>
-		</view>
+		
 		<!-- 为你推荐 -->
 		<general-list :GeneralTitle="'为你推荐'" :List="list" style="background: #f8f8f8;">
 			<load-more :loading.sync="loading" slot="footer"></load-more>
@@ -87,19 +73,47 @@
 				opcity: 0, //搜索栏透明度
 				current: 0, // 滑块索引
 				swiperList: [{ //滑块列表
-					img: 'http://ceshi.weakwater.com/static/banner1.jpg',
+					img: 'https://placekitten.com/500/300',
 					color: '#cb573c'
 				},{
-					img: 'http://ceshi.weakwater.com/static/banner2.jpg',
+					img: 'https://placekitten.com/300/300',
 					color: '#cdd7da'
 				},{
-					img: 'http://ceshi.weakwater.com/static/banner3.jpg',
+					img: 'https://placekitten.com/400/300',
 					color: '#b74945'
 				},{
-					img: 'http://ceshi.weakwater.com/static/banner4.jpg',
+					img: 'https://placekitten.com/600/300',
 					color: '#b74945'
 				}],
-				list:[]
+				list:[
+					{   id:'1',
+						goods_name:'宠物猫',
+						goods_headimg:'https://placekitten.com/300/300',
+						goods_label: [
+							{name: '宠物级'},{name:'血统级'}
+						],
+						goods_original:'9999',
+						goods_price: '6999'
+					},
+					{   id:'1',
+						goods_name:'田园猫',
+						goods_headimg:'https://placekitten.com/400/300',
+						goods_label: [
+							{name: '宠物级'},{name:'血统级'}
+						],
+						goods_original:'9999',
+						goods_price: '6999'
+					},
+					{   id:'1',
+						goods_name:'布偶猫',
+						goods_headimg:'https://placekitten.com/300/300',
+						goods_label: [
+							{name: '宠物级'},{name:'血统级'}
+						],
+						goods_original:'9999',
+						goods_price: '6999'
+					}
+				]
 			}
 		},
 		computed:{
@@ -127,7 +141,7 @@
 				this.current = e.detail.current
 			},
 			async _shopList(){
-				this.list = [...this.list,{name:'123'},{name:'245'}]
+				//this.list = [...this.list,{name:'123'},{name:'245'}]
 				// this.loading = 1
 				// let data = await this.$apis.shopList({page:this.page})
 				// this.list = [...this.list,...data.result.list]

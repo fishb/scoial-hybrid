@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "分红",
-  "enablePullDownRefresh": true,
-  "titleNView": {
-    "type": "default"
-  },
-  "scrollIndicator": "none",
-  "usingComponents": {}
-}

@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "会员专区",
-  "usingComponents": {
-    "general-list": "/components/GeneralList"
-  }
-}

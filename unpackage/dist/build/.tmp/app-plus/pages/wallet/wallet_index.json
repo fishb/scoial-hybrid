@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "我的钱包",
-  "titleNView": {
-    "type": "default"
-  },
-  "scrollIndicator": "none",
-  "usingComponents": {}
-}

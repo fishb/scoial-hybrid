@@ -1,1 +1,0 @@
-<view class="container store data-v-18227b58"><view class="store-info data-v-18227b58"><block wx:if="{{shopInfo.business_license}}"><image src="{{shopInfo.business_license}}" mode="widthFix" class="data-v-18227b58"></image></block><block wx:if="{{shopInfo.food_license}}"><image src="{{shopInfo.food_license}}" mode="widthFix" class="data-v-18227b58"></image></block></view></view>

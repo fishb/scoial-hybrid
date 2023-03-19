@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "我的通知",
-  "enablePullDownRefresh": true,
-  "titleNView": {
-    "type": "default"
-  },
-  "scrollIndicator": "none",
-  "usingComponents": {}
-}

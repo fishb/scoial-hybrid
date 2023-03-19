@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "购物车",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "general-list": "/components/GeneralList",
-    "cart-component": "/components/CartComponent"
-  }
-}

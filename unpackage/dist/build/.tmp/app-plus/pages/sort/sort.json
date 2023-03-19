@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "分类",
-  "navigationStyle": "custom",
-  "titleNView": false,
-  "scrollIndicator": "none",
-  "usingComponents": {
-    "hybrid-title": "/components/HybridTitle"
-  }
-}
